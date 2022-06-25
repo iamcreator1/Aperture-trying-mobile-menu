@@ -9,6 +9,41 @@
 	.main_banner .text {
 		padding: 0 16px;
 	}
+	.wraper-for-whole-header {
+		display: block;
+	}
+
+	#head nav {
+		display: none;
+	
+	}
+
+	.logo img {
+		margin-left: 5px;
+	}
+
+	.nav-but-wrap {
+		display: block;
+		z-index: 9999;
+	}
+
+
+
+	.logo-wrap {
+		display: none;
+	}
+
+	.nav-but-wrap {
+		position: relative;
+		top: -10px;
+	}
+
+	
+	
+
+
+
+
 }
 
 @media only screen and (max-width: 584px) {
@@ -22,30 +57,7 @@
 	}
 }
 
-@media only screen and (max-width: 827px) {
-	header .menu_header {
-		display: none;
-	}
 
-	header .container {
-		padding: 0 10px;
-	}
-
-	.burger {
-		display: block;
-	}
-
-	header .container {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	header .logo {
-		margin-right: auto;
-		display: flex;
-
-	}
-}
 
 @media only screen and (max-width: 767px) {
 	.what-we-do .text {

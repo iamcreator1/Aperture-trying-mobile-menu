@@ -23,6 +23,14 @@ a:hover {
 	text-decoration: none;
 }
 
+.wraper-for-whole-header {
+	display: none;
+}
+
+.switch-wrap {
+	display: none;
+}
+
 /* #Cursor
 ================================================== */
 
@@ -85,6 +93,7 @@ a:hover {
 	overflow: hidden;
 }
 .full-height {
+	display: none;
 	height: 100vh;
 }
 
@@ -227,8 +236,8 @@ a:hover {
 	text-align: center;
 	color: #fff;
 	overflow: hidden; 
-	font-family: 'Montserrat', sans-serif;
-	font-size: 8vh;
+	font-family: 'Poppins',sans-serif;
+	font-size: 4vh;
 	font-weight: 900;
 	line-height: 1.15;
 	letter-spacing: 3px;
